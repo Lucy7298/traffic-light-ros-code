@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+    <node name="light_controller" pkg="light_controller" type="light_controller_node">
+    </node>
+</launch>
