@@ -3,4 +3,7 @@
 <launch>
     <node name="light_controller" pkg="light_controller" type="light_controller_node">
     </node>
+    <node name="serial_node" pkg="rosserial_python" type="serial_node.py">
+        <param name="port" type="string" value="/dev/ttyUSB0"/>
+    </node>
 </launch>
